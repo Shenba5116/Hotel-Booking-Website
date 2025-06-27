@@ -1,0 +1,136 @@
+header {
+    background: #333;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+   border:5px solid black;
+}
+a.first:link {color: white; text-decoration: none;}
+a.first:visited {color: white; text-decoration: none;}
+a.first:hover {; text-decoration: none;}
+.content{
+	background: #333;
+	color: #fff;
+	text-align:center;
+}
+.button{
+	font-size: 16px;
+        margin: 4px 2px;
+}
+h2{
+	 background: #333;
+    color: #fff;
+    padding: 8px;
+    text-align: center;
+   border:5px solid black;
+}
+
+ul li{
+	display: inline;
+	margin: 0 20px;
+	font-size: 25px;
+}
+#p2{
+	font-size: 90px;
+	margin: 70 100px;
+	font-style: optima;
+	color:rgb(28,40,51);
+}
+#img1{
+	position: absolute; 
+	left: 920px; 
+	top: 210px;
+	border:5px solid black;
+}
+#img2{
+	position: absolute; 
+	left: 50px; 
+	top: 770px;
+	border:5px solid black;
+	 box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5);
+}
+#img3{
+	position: absolute; 
+	left: 800px; 
+	top: 770px;
+	border:5px solid black;
+	 box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5);
+}
+#r2{
+	position: absolute;
+	left: 220px;
+	top: 690px;
+	font-size:30px;
+	
+}
+#r3{
+	position: absolute;
+	left: 1032px;
+	top: 690px;
+	font-size:30px;
+}
+.branches{
+	border-style:double;
+	width:900px;
+	height:300px;
+	margin: auto;
+	border-radius:25px;
+	border-width:5px;
+	background-color:rgb(245,245,245);
+}
+.row{
+	display:inline-block;
+	margin-top: 30px;
+  	margin-bottom: 100px;
+  	margin-right: 80px;
+  	margin-left: 110px;
+	font-size:27px;	
+}
+form {
+    max-width: 410px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,10);
+    font-size:20px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form button {
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+form button:hover {
+    background: #555;
+}
+#vid{
+	position:absolute;
+	left:440px;
+	top:2690px;
+}
+#pdom{
+	text-align:center;
+	font-size:30px;
+	font-style: italic;
+  background-color: lightgray;
+	border: 1px solid black;
+	border-radius:25px;
+}
+

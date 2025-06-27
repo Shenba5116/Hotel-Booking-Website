@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Feel Home</title>
+	 <meta charset="UTF-8">
+	<link rel="icon" href="C:\Users\SHENBAGARAJ\Pictures\hotel.jpg">
+ 	 <link rel="stylesheet" href="raj.css">
+	<script type="text/javascript" src="domm.js"></script>
+
+		
+</head>
+<body>
+   <header>
+	<h1 id="hdom" onmouseover="enlarge()" onmouseout="delarge()" style="text-align:center; font-size:4
+9px">Feel Home Hotel</h1>
+	<hr>
+	<section class="content">
+	  <ul >
+		<li><a class="first" href="#">Home</a></li>
+		<li><a class="first" href="#sec3">Rooms</a></li>
+		<li><a class="first" href="#sec4">Branches</a></li>
+		<li><a class="first" href="#booking">Booking</a></li>
+		<li><a class="first" href="aboutus.html">About us</a></li>
+		<li>Contact</li>
+		<li><span><button type="button" class="button"><a href="login.html">Login</a></button>| Feedback</span></li>
+	  </ul>
+	 </section>
+      </header>
+
+	  <section id="sec2">
+		<p id="p2"><span class="room"><img id="img1" src="C:\Users\SHENBAGARAJ\Pictures\first yr  project\image\room1.jpg" alr="room" width="390" height="340" ></span>&nbsp&nbsp"Experience comfort, <br>&nbsp&nbsp&nbspembrace adventure."</p>
+	 </section>
+	<hr>
+	
+	<section id="sec3">
+		<h2 style="text-align:center; font-size:45px;">Our Rooms</h2>
+           	<img id="img2" src="C:\Users\SHENBAGARAJ\Pictures\first yr  project\image\room2.jpg" alt="Deluxe Room" width="500" height="450"  onmouseover="show('img2','image/room2b.jpg');"
+                                           onmouseout="show('img2','image/room2.jpg');">
+		<p id="r2"><u><i>Deluxe Room</u></i></p>
+            	<img id="img3"src="C:\Users\SHENBAGARAJ\Pictures\first yr  project\image\room1.jpg" alt="Suite"  width="470" height="450" onmouseover="show('img3','image/room1a.jpg');"
+                                           onmouseout="show('img3','image/room1.jpg');"> 
+		 <p id="r3"><u><i>Suite</u></i></p>
+	</section>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<hr>
+
+	<section id="booking">
+       	 <h2 style="text-align:center;font-size:45px;">Book Your Stay</h2>
+       	 <form id="bookingForm">
+            	<label for="name">Full Name:</label>
+            	<input type="text" id="name" required>
+		
+		<label for="number">Mobile Number:</label>
+		<input type="tel" id="number" required>
+
+            	<label for="email">Email:</label>
+            	<input type="email" id="email" required>
+
+           	 <label for="checkin">Check-in Date:</label>
+            	<input type="date" id="checkin" required>
+
+           	 <label for="checkout">Check-out Date:</label>
+            	<input type="date" id="checkout" required>
+
+            	<button type="submit">Book Now</button>
+         </form>
+	</section>
+
+	<section id="sec4">
+		<h2 style="text-align:center;font-size:45px;">Branches</h2>
+		<p  style="text-align:center;font-size:30px;"><u>Our branches</u></p><br>
+		<div class="branches">
+			<div class="row">
+				<p>Chennai</p>
+				<p>Madurai</p>
+				<p>Kolkata</p>
+				<p>Singapore</p>
+			</div>
+			<div class="row">
+				<p>Mumbai</p>
+				<p>Banglore</p>
+				<p>Hyderbad</p>
+				<p>Malaysia</p>
+			</div>
+			<div class="row">
+				<p>Cochin</p>
+				<p>Goa</p>
+				<p>Manali</p>
+				<p>Indonesia</p>
+			</div>
+		</div>	
+		<p id="pdom" onclick="changeText(this)" >Book You hotels now for your endless travel</p>
+	</section>	
+		<br><hr>
+<section id="sec5">
+		<h2 style="text-align:center;font-size:45px;">ROOMS</h2>
+		<div id="vid">
+			<video width="470" height="400" controls>
+				<source src="C:\Users\SHENBAGARAJ\Pictures\first yr  project\image\hotelvedio.mp4" type="video/mp4">
+			</video>
+		</div>
+</section>		
+</body>
+</html>

@@ -1,0 +1,45 @@
+body{
+	background-color:rgb(213, 219, 219);
+}
+h1{
+	text-align:center;
+	font-size:35px;
+}
+.error {
+			color: red;
+			font-size: 0.9em;
+		}
+form {
+    width: 370px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,15);
+    font-size:20px;
+   margin:0 auto;
+    }
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form button {
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+form button:hover {
+    background: #555;
+}

@@ -1,0 +1,39 @@
+h1{
+	text-align:center;
+	font-size:55px;
+	 background: #333;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+   border:5px solid black;
+
+}
+div{
+		font-size:30px;
+}
+#abt{
+	position:absolute;
+	left:830px;
+	border: 5px solid black;
+}
+aside {
+  width: 55%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: left;
+  font-style: italic;
+  background-color: lightgray;
+}
+article{
+  	font-size:30px;
+	border-radius: 2px solid grey;
+}
+ footer{
+	text-align:center;
+	font-size:30px;
+	 background: #333;
+    color: #fff;
+    padding: 5px;
+   border:5px solid black;
+
+}

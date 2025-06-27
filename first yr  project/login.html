@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	 <meta charset="UTF-8">
+	 <link rel="stylesheet" href="loginn.css">
+<script>
+	function validateForm(event) {
+	
+		document.querySelectorAll('.error').forEach(function(span) {
+				span.textContent = '';
+			});
+            var name = document.getElementById("fname").value.trim();
+            var email = document.getElementById("email").value.trim();
+            var phone = document.getElementById("num").value.trim();
+            var password = document.getElementById("pass").value.trim();
+
+            var emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+            var phonePattern = /^[0-9]{10}$/; 
+
+		var isValid = true;
+            if (name === "") {
+                document.getElementById('nameError').textContent= 'Name is required.';
+                isValid=false;
+            }
+            if (!emailPattern.test(email)) {
+                document.getElementById('emailError').textContent = 'Please enter a valid email address.';
+                 isValid=false;
+
+            }
+            if (!phonePattern.test(phone)) {
+                document.getElementById('phoneError').textContent = 'Please enter a valid 10-digit phone number.';
+                 isValid=false;
+
+            }
+            if (password.length < 6) {
+                document.getElementById('passError').textContent ='Password must be at least 6 characters long.';
+                 isValid=false;
+
+            }
+           if (!isValid) {
+				event.preventDefault();
+			}
+
+			return isValid;
+        }
+    </script>
+
+</head>
+<body>
+	<h1><u>Login</u></h1>
+	<form onsubmit="return validateForm(event)"  style="background-color:rgb(153, 163, 164 )">
+		<frameset >
+		
+		<label for="fname">Name:</label>
+		<input type="text" id="fname" >
+		<span id="nameError" class="error"></span><br>
+
+		<label for="email">Email:</label>
+		<input type="text" id="email" >
+		<span id="emailError" class="error"></span><br>
+
+		<label for="num">Phone Number:</label>
+		<input type="tel" id="num" >
+		<span id="phoneError" class="error"></span><br>
+
+	        <label for="pass">Password:</label>
+		<input type="password" id="pass">
+		<span id="passError" class="error"></span><br>
+
+		<button type="submit">Login</button>
+		</frameset>
+	</form>
+	</body>
+</html>
+
+	
+	
